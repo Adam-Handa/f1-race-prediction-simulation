@@ -1,0 +1,27 @@
+# Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+
+# FastF1 Telemetry Cache
+cache_folder/
+cache/
+f1_cache/
+
+# Python Cache & Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# Reference Sub-repositories
+f1-race-replay/
+
+# IDE & OS Files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.log
